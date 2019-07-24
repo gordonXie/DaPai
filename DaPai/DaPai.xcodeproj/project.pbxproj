@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,10 @@
 		B0F1B7CC22E70ED8003B6FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F1B7CA22E70ED8003B6FD6 /* LaunchScreen.storyboard */; };
 		B0F1B7D722E70ED8003B6FD6 /* DaPaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7D622E70ED8003B6FD6 /* DaPaiTests.swift */; };
 		B0F1B7E222E70ED8003B6FD6 /* DaPaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7E122E70ED8003B6FD6 /* DaPaiUITests.swift */; };
+		B0F1B7F022E80E66003B6FD6 /* DPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7EF22E80E66003B6FD6 /* DPTabBarController.swift */; };
+		B0F1B7F222E83CDE003B6FD6 /* DPHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F122E83CDE003B6FD6 /* DPHomePageController.swift */; };
+		B0F1B7F422E83D06003B6FD6 /* DPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F322E83D06003B6FD6 /* DPBaseViewController.swift */; };
+		B0F1B7F622E83D8E003B6FD6 /* DPExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F522E83D8E003B6FD6 /* DPExploreController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		B0F1B7DD22E70ED8003B6FD6 /* DaPaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaPaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F1B7E122E70ED8003B6FD6 /* DaPaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaPaiUITests.swift; sourceTree = "<group>"; };
 		B0F1B7E322E70ED8003B6FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F1B7EF22E80E66003B6FD6 /* DPTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTabBarController.swift; sourceTree = "<group>"; };
+		B0F1B7F122E83CDE003B6FD6 /* DPHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPHomePageController.swift; sourceTree = "<group>"; };
+		B0F1B7F322E83D06003B6FD6 /* DPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPBaseViewController.swift; sourceTree = "<group>"; };
+		B0F1B7F522E83D8E003B6FD6 /* DPExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPExploreController.swift; sourceTree = "<group>"; };
 		B40C14672FC8016D03005187 /* Pods-DaPaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-DaPaiUITests/Pods-DaPaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B755A28C3FA312EA1CB0D2FA /* Pods-DaPaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPaiTests.release.xcconfig"; path = "Target Support Files/Pods-DaPaiTests/Pods-DaPaiTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC090B680C1CBD2949492964 /* Pods-DaPaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPaiUITests.release.xcconfig"; path = "Target Support Files/Pods-DaPaiUITests/Pods-DaPaiUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +107,6 @@
 				B40C14672FC8016D03005187 /* Pods-DaPaiUITests.debug.xcconfig */,
 				BC090B680C1CBD2949492964 /* Pods-DaPaiUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +141,10 @@
 				B0F1B7C822E70ED8003B6FD6 /* Assets.xcassets */,
 				B0F1B7CA22E70ED8003B6FD6 /* LaunchScreen.storyboard */,
 				B0F1B7CD22E70ED8003B6FD6 /* Info.plist */,
+				B0F1B7EF22E80E66003B6FD6 /* DPTabBarController.swift */,
+				B0F1B7F122E83CDE003B6FD6 /* DPHomePageController.swift */,
+				B0F1B7F322E83D06003B6FD6 /* DPBaseViewController.swift */,
+				B0F1B7F522E83D8E003B6FD6 /* DPExploreController.swift */,
 			);
 			path = DaPai;
 			sourceTree = "<group>";
@@ -388,7 +399,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0F1B7C422E70ED6003B6FD6 /* ViewController.swift in Sources */,
+				B0F1B7F622E83D8E003B6FD6 /* DPExploreController.swift in Sources */,
+				B0F1B7F022E80E66003B6FD6 /* DPTabBarController.swift in Sources */,
+				B0F1B7F422E83D06003B6FD6 /* DPBaseViewController.swift in Sources */,
 				B0F1B7C222E70ED6003B6FD6 /* AppDelegate.swift in Sources */,
+				B0F1B7F222E83CDE003B6FD6 /* DPHomePageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AKQ77KAV43;
 				INFOPLIST_FILE = DaPai/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,7 +602,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AKQ77KAV43;
 				INFOPLIST_FILE = DaPai/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
