@@ -9,5 +9,9 @@
 import UIKit
 
 class DPHomePageController: DPBaseViewController {
-    
+    override func viewDidLoad() {
+        super .viewDidLoad()
+        self.view.frame = UIScreen.main.bounds
+        self.view.backgroundColor = UIColor.blue
+    }
 }

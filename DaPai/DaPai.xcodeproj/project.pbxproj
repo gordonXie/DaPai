@@ -12,7 +12,6 @@
 		AF8F641AFD96E4D80E83255D /* Pods_DaPaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5443349118384298C34D6D /* Pods_DaPaiUITests.framework */; };
 		B0F1B7C222E70ED6003B6FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7C122E70ED6003B6FD6 /* AppDelegate.swift */; };
 		B0F1B7C422E70ED6003B6FD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7C322E70ED6003B6FD6 /* ViewController.swift */; };
-		B0F1B7C722E70ED6003B6FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F1B7C522E70ED6003B6FD6 /* Main.storyboard */; };
 		B0F1B7C922E70ED8003B6FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F1B7C822E70ED8003B6FD6 /* Assets.xcassets */; };
 		B0F1B7CC22E70ED8003B6FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F1B7CA22E70ED8003B6FD6 /* LaunchScreen.storyboard */; };
 		B0F1B7D722E70ED8003B6FD6 /* DaPaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7D622E70ED8003B6FD6 /* DaPaiTests.swift */; };
@@ -21,6 +20,7 @@
 		B0F1B7F222E83CDE003B6FD6 /* DPHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F122E83CDE003B6FD6 /* DPHomePageController.swift */; };
 		B0F1B7F422E83D06003B6FD6 /* DPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F322E83D06003B6FD6 /* DPBaseViewController.swift */; };
 		B0F1B7F622E83D8E003B6FD6 /* DPExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F522E83D8E003B6FD6 /* DPExploreController.swift */; };
+		B0F1B7F822E84145003B6FD6 /* AppMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F722E84145003B6FD6 /* AppMacro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		B0F1B7BE22E70ED6003B6FD6 /* DaPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F1B7C122E70ED6003B6FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0F1B7C322E70ED6003B6FD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B0F1B7C622E70ED6003B6FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0F1B7C822E70ED8003B6FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0F1B7CB22E70ED8003B6FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0F1B7CD22E70ED8003B6FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		B0F1B7F122E83CDE003B6FD6 /* DPHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPHomePageController.swift; sourceTree = "<group>"; };
 		B0F1B7F322E83D06003B6FD6 /* DPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPBaseViewController.swift; sourceTree = "<group>"; };
 		B0F1B7F522E83D8E003B6FD6 /* DPExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPExploreController.swift; sourceTree = "<group>"; };
+		B0F1B7F722E84145003B6FD6 /* AppMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMacro.swift; sourceTree = "<group>"; };
 		B40C14672FC8016D03005187 /* Pods-DaPaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-DaPaiUITests/Pods-DaPaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B755A28C3FA312EA1CB0D2FA /* Pods-DaPaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPaiTests.release.xcconfig"; path = "Target Support Files/Pods-DaPaiTests/Pods-DaPaiTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC090B680C1CBD2949492964 /* Pods-DaPaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPaiUITests.release.xcconfig"; path = "Target Support Files/Pods-DaPaiUITests/Pods-DaPaiUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,7 +137,6 @@
 			children = (
 				B0F1B7C122E70ED6003B6FD6 /* AppDelegate.swift */,
 				B0F1B7C322E70ED6003B6FD6 /* ViewController.swift */,
-				B0F1B7C522E70ED6003B6FD6 /* Main.storyboard */,
 				B0F1B7C822E70ED8003B6FD6 /* Assets.xcassets */,
 				B0F1B7CA22E70ED8003B6FD6 /* LaunchScreen.storyboard */,
 				B0F1B7CD22E70ED8003B6FD6 /* Info.plist */,
@@ -145,6 +144,7 @@
 				B0F1B7F122E83CDE003B6FD6 /* DPHomePageController.swift */,
 				B0F1B7F322E83D06003B6FD6 /* DPBaseViewController.swift */,
 				B0F1B7F522E83D8E003B6FD6 /* DPExploreController.swift */,
+				B0F1B7F722E84145003B6FD6 /* AppMacro.swift */,
 			);
 			path = DaPai;
 			sourceTree = "<group>";
@@ -287,7 +287,6 @@
 			files = (
 				B0F1B7CC22E70ED8003B6FD6 /* LaunchScreen.storyboard in Resources */,
 				B0F1B7C922E70ED8003B6FD6 /* Assets.xcassets in Resources */,
-				B0F1B7C722E70ED6003B6FD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +399,7 @@
 			files = (
 				B0F1B7C422E70ED6003B6FD6 /* ViewController.swift in Sources */,
 				B0F1B7F622E83D8E003B6FD6 /* DPExploreController.swift in Sources */,
+				B0F1B7F822E84145003B6FD6 /* AppMacro.swift in Sources */,
 				B0F1B7F022E80E66003B6FD6 /* DPTabBarController.swift in Sources */,
 				B0F1B7F422E83D06003B6FD6 /* DPBaseViewController.swift in Sources */,
 				B0F1B7C222E70ED6003B6FD6 /* AppDelegate.swift in Sources */,
@@ -439,14 +439,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0F1B7C522E70ED6003B6FD6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0F1B7C622E70ED6003B6FD6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B0F1B7CA22E70ED8003B6FD6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

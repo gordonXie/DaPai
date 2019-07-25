@@ -9,5 +9,8 @@
 import UIKit
 
 class DPExploreController: DPBaseViewController {
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = UIColor.yellow
+    }
 }
