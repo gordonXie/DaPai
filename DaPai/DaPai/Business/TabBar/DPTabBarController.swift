@@ -26,8 +26,8 @@ class DPTabBarController: ESTabBarController {
         homeVC.title = "首页"
         exploreVC.title = "探索"
 
-//        self.viewControllers = [homeNav,exploreNav]
-        self.viewControllers = [homeVC,exploreVC]
+        self.viewControllers = [homeNav,exploreNav]
+//        self.viewControllers = [homeVC,exploreVC]
         
         self.view.backgroundColor = UIColor.red
 //        let mainNav = UINavigationController.init(rootViewController: self)

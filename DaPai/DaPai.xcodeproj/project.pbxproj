@@ -10,6 +10,9 @@
 		932C081615AB01171E2C67AF /* Pods_DaPai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB2D9E21D417D354CE75F9F /* Pods_DaPai.framework */; };
 		AB84434354759661D3CAC808 /* Pods_DaPaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E0A6E7742549430B77D6EF /* Pods_DaPaiTests.framework */; };
 		AF8F641AFD96E4D80E83255D /* Pods_DaPaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5443349118384298C34D6D /* Pods_DaPaiUITests.framework */; };
+		B02E3CB622EEDFFE008B5ADE /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E3CB522EEDFFE008B5ADE /* AppColor.swift */; };
+		B02E3CB822EEFA54008B5ADE /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E3CB722EEFA54008B5ADE /* AppFont.swift */; };
+		B02E3CBA22EEFBCB008B5ADE /* DPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E3CB922EEFBCB008B5ADE /* DPConfig.swift */; };
 		B0F1B7C222E70ED6003B6FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7C122E70ED6003B6FD6 /* AppDelegate.swift */; };
 		B0F1B7C922E70ED8003B6FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F1B7C822E70ED8003B6FD6 /* Assets.xcassets */; };
 		B0F1B7CC22E70ED8003B6FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F1B7CA22E70ED8003B6FD6 /* LaunchScreen.storyboard */; };
@@ -19,7 +22,7 @@
 		B0F1B7F222E83CDE003B6FD6 /* DPHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F122E83CDE003B6FD6 /* DPHomePageController.swift */; };
 		B0F1B7F422E83D06003B6FD6 /* DPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F322E83D06003B6FD6 /* DPBaseViewController.swift */; };
 		B0F1B7F622E83D8E003B6FD6 /* DPExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F522E83D8E003B6FD6 /* DPExploreController.swift */; };
-		B0F1B7F822E84145003B6FD6 /* AppMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F722E84145003B6FD6 /* AppMacro.swift */; };
+		B0F1B7F822E84145003B6FD6 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7F722E84145003B6FD6 /* AppUtils.swift */; };
 		B0F1B80722E95F65003B6FD6 /* DPClassifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B80622E95F65003B6FD6 /* DPClassifyController.swift */; };
 		B0F1B80922E9605B003B6FD6 /* DPMyCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B80822E9605B003B6FD6 /* DPMyCenterController.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +50,9 @@
 		48A3B7ADACE3AF89084C3ED6 /* Pods-DaPai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPai.release.xcconfig"; path = "Target Support Files/Pods-DaPai/Pods-DaPai.release.xcconfig"; sourceTree = "<group>"; };
 		5EB2D9E21D417D354CE75F9F /* Pods_DaPai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaPai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C42C4E333154A6D2B7DDAE /* Pods-DaPai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPai.debug.xcconfig"; path = "Target Support Files/Pods-DaPai/Pods-DaPai.debug.xcconfig"; sourceTree = "<group>"; };
+		B02E3CB522EEDFFE008B5ADE /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		B02E3CB722EEFA54008B5ADE /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		B02E3CB922EEFBCB008B5ADE /* DPConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPConfig.swift; sourceTree = "<group>"; };
 		B0F1B7BE22E70ED6003B6FD6 /* DaPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F1B7C122E70ED6003B6FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0F1B7C822E70ED8003B6FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +68,7 @@
 		B0F1B7F122E83CDE003B6FD6 /* DPHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPHomePageController.swift; sourceTree = "<group>"; };
 		B0F1B7F322E83D06003B6FD6 /* DPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPBaseViewController.swift; sourceTree = "<group>"; };
 		B0F1B7F522E83D8E003B6FD6 /* DPExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPExploreController.swift; sourceTree = "<group>"; };
-		B0F1B7F722E84145003B6FD6 /* AppMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMacro.swift; sourceTree = "<group>"; };
+		B0F1B7F722E84145003B6FD6 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 		B0F1B80622E95F65003B6FD6 /* DPClassifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPClassifyController.swift; sourceTree = "<group>"; };
 		B0F1B80822E9605B003B6FD6 /* DPMyCenterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPMyCenterController.swift; sourceTree = "<group>"; };
 		B40C14672FC8016D03005187 /* Pods-DaPaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaPaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-DaPaiUITests/Pods-DaPaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -197,7 +203,10 @@
 		B0F1B7FC22E95D45003B6FD6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				B0F1B7F722E84145003B6FD6 /* AppMacro.swift */,
+				B0F1B7F722E84145003B6FD6 /* AppUtils.swift */,
+				B02E3CB522EEDFFE008B5ADE /* AppColor.swift */,
+				B02E3CB722EEFA54008B5ADE /* AppFont.swift */,
+				B02E3CB922EEFBCB008B5ADE /* DPConfig.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -490,12 +499,15 @@
 			files = (
 				B0F1B80722E95F65003B6FD6 /* DPClassifyController.swift in Sources */,
 				B0F1B7F622E83D8E003B6FD6 /* DPExploreController.swift in Sources */,
-				B0F1B7F822E84145003B6FD6 /* AppMacro.swift in Sources */,
+				B0F1B7F822E84145003B6FD6 /* AppUtils.swift in Sources */,
+				B02E3CBA22EEFBCB008B5ADE /* DPConfig.swift in Sources */,
 				B0F1B7F022E80E66003B6FD6 /* DPTabBarController.swift in Sources */,
 				B0F1B80922E9605B003B6FD6 /* DPMyCenterController.swift in Sources */,
 				B0F1B7F422E83D06003B6FD6 /* DPBaseViewController.swift in Sources */,
+				B02E3CB822EEFA54008B5ADE /* AppFont.swift in Sources */,
 				B0F1B7C222E70ED6003B6FD6 /* AppDelegate.swift in Sources */,
 				B0F1B7F222E83CDE003B6FD6 /* DPHomePageController.swift in Sources */,
+				B02E3CB622EEDFFE008B5ADE /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
