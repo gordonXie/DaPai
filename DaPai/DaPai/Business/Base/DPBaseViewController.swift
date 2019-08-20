@@ -17,8 +17,8 @@ class DPBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //初始化
-        self.initViewConfig()
+        //初始化配置VC
+        self.configVC()
         //加载view
         self.loadMainView()
     }
@@ -26,8 +26,8 @@ class DPBaseViewController: UIViewController {
     /**
      * 页面配置初始化
      */
-    public func initViewConfig() {
-//        self.view.backgroundColor =
+    public func configVC() {
+        // 子类实现
     }
     
     /**
@@ -36,9 +36,8 @@ class DPBaseViewController: UIViewController {
      */
     public func loadMainView() {
         self.initNavigationItem()
+        self.view.backgroundColor = kColorDefaultBg
     }
-    
-
 }
 
 // 导航栏
@@ -81,10 +80,5 @@ extension DPBaseViewController {
     @objc public func leftItemClick() {
         self.navigationController?.popViewController(animated: true)
     }
-    
-}
-
-//
-extension DPBaseViewController {
     
 }

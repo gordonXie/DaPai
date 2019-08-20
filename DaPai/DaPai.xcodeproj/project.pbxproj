@@ -13,6 +13,9 @@
 		B02E3CB622EEDFFE008B5ADE /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E3CB522EEDFFE008B5ADE /* AppColor.swift */; };
 		B02E3CB822EEFA54008B5ADE /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E3CB722EEFA54008B5ADE /* AppFont.swift */; };
 		B02E3CBA22EEFBCB008B5ADE /* DPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E3CB922EEFBCB008B5ADE /* DPConfig.swift */; };
+		B0E71CD522FA97AA006CFCCC /* DPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E71CD422FA97AA006CFCCC /* DPLoginViewController.swift */; };
+		B0E71CDB22FABC84006CFCCC /* DPUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E71CDA22FABC84006CFCCC /* DPUserInfo.swift */; };
+		B0E99B3722FFC021009818B5 /* TextFieldWithLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E99B3622FFC021009818B5 /* TextFieldWithLine.swift */; };
 		B0F1B7C222E70ED6003B6FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1B7C122E70ED6003B6FD6 /* AppDelegate.swift */; };
 		B0F1B7C922E70ED8003B6FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F1B7C822E70ED8003B6FD6 /* Assets.xcassets */; };
 		B0F1B7CC22E70ED8003B6FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F1B7CA22E70ED8003B6FD6 /* LaunchScreen.storyboard */; };
@@ -53,6 +56,9 @@
 		B02E3CB522EEDFFE008B5ADE /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		B02E3CB722EEFA54008B5ADE /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		B02E3CB922EEFBCB008B5ADE /* DPConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPConfig.swift; sourceTree = "<group>"; };
+		B0E71CD422FA97AA006CFCCC /* DPLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPLoginViewController.swift; sourceTree = "<group>"; };
+		B0E71CDA22FABC84006CFCCC /* DPUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPUserInfo.swift; sourceTree = "<group>"; };
+		B0E99B3622FFC021009818B5 /* TextFieldWithLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithLine.swift; sourceTree = "<group>"; };
 		B0F1B7BE22E70ED6003B6FD6 /* DaPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F1B7C122E70ED6003B6FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0F1B7C822E70ED8003B6FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,6 +122,40 @@
 				BC090B680C1CBD2949492964 /* Pods-DaPaiUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0E71CD622FAA918006CFCCC /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				B0E71CD422FA97AA006CFCCC /* DPLoginViewController.swift */,
+				B0E71CD822FAA94A006CFCCC /* ViewModel */,
+				B0E71CD722FAA939006CFCCC /* View */,
+				B0E71CD922FABC4C006CFCCC /* Model */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		B0E71CD722FAA939006CFCCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0E99B3622FFC021009818B5 /* TextFieldWithLine.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0E71CD822FAA94A006CFCCC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0E71CD922FABC4C006CFCCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0E71CDA22FABC84006CFCCC /* DPUserInfo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B0F1B7B522E70ED6003B6FD6 = {
@@ -262,6 +302,7 @@
 		B0F1B80322E95F03003B6FD6 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				B0E71CD622FAA918006CFCCC /* 登录 */,
 				B0F1B80822E9605B003B6FD6 /* DPMyCenterController.swift */,
 			);
 			path = "我的";
@@ -500,13 +541,16 @@
 				B0F1B80722E95F65003B6FD6 /* DPClassifyController.swift in Sources */,
 				B0F1B7F622E83D8E003B6FD6 /* DPExploreController.swift in Sources */,
 				B0F1B7F822E84145003B6FD6 /* AppUtils.swift in Sources */,
+				B0E71CDB22FABC84006CFCCC /* DPUserInfo.swift in Sources */,
 				B02E3CBA22EEFBCB008B5ADE /* DPConfig.swift in Sources */,
 				B0F1B7F022E80E66003B6FD6 /* DPTabBarController.swift in Sources */,
 				B0F1B80922E9605B003B6FD6 /* DPMyCenterController.swift in Sources */,
 				B0F1B7F422E83D06003B6FD6 /* DPBaseViewController.swift in Sources */,
 				B02E3CB822EEFA54008B5ADE /* AppFont.swift in Sources */,
+				B0E99B3722FFC021009818B5 /* TextFieldWithLine.swift in Sources */,
 				B0F1B7C222E70ED6003B6FD6 /* AppDelegate.swift in Sources */,
 				B0F1B7F222E83CDE003B6FD6 /* DPHomePageController.swift in Sources */,
+				B0E71CD522FA97AA006CFCCC /* DPLoginViewController.swift in Sources */,
 				B02E3CB622EEDFFE008B5ADE /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
